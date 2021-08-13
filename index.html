@@ -1,445 +1,126 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BMW X6</title>
-  <link rel="preconnect"
-    href="https://fonts.gstatic.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="styles/style.min.css">
-  <script src="js/accordion.js" defer></script>
-  <script src="js/smothScroll.js" defer></script>
-  <script src="js/tabs.js" defer></script>
-  <script src="js/modal.js" defer></script>
-  <script src="js/burger.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <!-- CSS & Font -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap" rel="stylesheet">
+    <script src="clock.js" defer></script>
+    <title>Launching soon || Frontendmentor</title>
 
 </head>
+
 <body>
-  <!-- header (start) -->
-  <header class="header">
-    <div class="container">
-      <div class="header-wrapper">
-        <div class="header-main">
-          <a href="#" class="logo header__logo">
-            <img src="img/logo.svg"
-              alt="Logo: BMW X6"
-              class="logo__img">
-          </a>
-          <!-- /.logo -->
-          <nav class="menu">
-            <ul class="menu-list">
-              <li class="menu-list__item">
-                <a href="#design"
-                  class="menu-list__link">
-                  Дизайн
-                </a>
-              </li>
-              <li class="menu-list__item">
-                <a href="#feature"
-                  class="menu-list__link">
-                  Характеристики
-                </a>
-              </li>
-              <li class="menu-list__item">
-                <a href="#"
-                  class="menu-list__link">
-                  Дилерская сеть
-                </a>
-              </li>
-              <li class="menu-list__item">
-                <a href="#contacts"
-                  class="menu-list__link">
-                  Тест-драйв
-                </a>
-              </li>
-            </ul>
-          </nav>
-          <!-- /.menu -->
-        </div>
-        <!-- /.header-main -->
-        <a href="tel:88005437809" class="phone">
-          8 800 543 78 09
-        </a>
-        <button class="humburger-menu" aria-label="Бургер меню">
-        </button>
-      </div>
-      <!-- /.header-wrapper -->
-    </div>
-  </header>
-  <!-- header (end) -->
 
-  <!-- main (start) -->
-  <section class="main" id="main">
-    <div class="container">
-      <div class="main-wrapper">
-        <div class="offer">
-          <h1 class="main__title">BMW X6</h1>
-          <p class="main__descr">Поражающий внешний облик
-          и&nbsp;впечатляющая функциональность</p>
-          <a href="#contacts" type="button" class="button main__button">
-            Тест-драйв
-          </a>
-          <a href="#design" class="main__scroll" aria-label="к следующему экрану"></a>
-          
-        </div>
-        <!-- /.offer -->
-        <div class="main-img">
-          <a href="https://youtu.be/dkrFZSWyklU" class="play">
-            
-            Смотреть видео
-          </a>
-          
-        </div>
-      </div>
-      <!-- /.main-wrapper -->
-    </div>
-  </section>
-  <!-- main (end) -->
+    <div class="background">
+        <!-- starts in the background -->
+        <h1>WE'RE LAUNCHING SOON</h1>
 
-  <!-- design (start) -->
-  <section class="section design" id="design">
-    <div class="container">
-      <div class="design-wrapper">
-        <div class="design-block">
-          <img src="img/car/image-5.png" alt="BMW X6" class="feature__img design-block__img" data-tabs-field="interior">
-          <img src="img/car/image-4.png" alt="BMW X6" class="feature__img design-block__img hidden" data-tabs-field="body">
-          <div class="design-text">
-            <h2 class="section__title design__title">
-              Комфорт в деталях
-            </h2>
-            <h2 class="section__title design__title hidden">
-              Притягивает взгляды
-            </h2>
-            <ul class="design-list">
-              <li>
-                <button type="button" class="design-list__item design-list__item_active" data-tabs-handler="interior">Дизайн салона</button>
-              </li>
-              <li>
-                <button type="button" class="design-list__item" data-tabs-handler="body">Дизайн кузова</button>
-              </li>
-            </ul>
-            <!-- /.design-list -->
-            <ul>
-              <li class="design__descr" data-tabs-field="interior">
-                <p class="design__description-text">
-                  Контурная подсветка в передних и задних дверях создает в салоне автомобиля уютную и расслабляющую обстановку.
-                  Хрустальные детали встроены в рукоятку рычага селектора, регулятор громкости.
-                  Панорамная стеклянная крыша дарит ощущение невероятного простора днем, а в ночное время создает в салоне особую атмосферу.
-                </p>
-                <button class="more">
-                  — Узнать больше
-                </button>
-              </li>
-              <li class="design__descr hidden" data-tabs-field="body">
-                <p class="design__description-text">
-                  Широкий. Динамичный. Мускулистый. Обновлённый BMW X6 сочетает в себе солиддность серии X со спортивным купе. Решительная передняя часть с широкими воздухозаборниками недвусмысленно намекает на то, какая мощь скрыта под капотом. Большая двойная решётка радиатора спортивной формы подччёркивает атлетичность автомобиля. Усиливают впечатление фирменные двойные фары BMW и широко раставленные противотуманные фары.
-                </p>
-                <button class="more">
-                  — Узнать больше
-                </button>
-            </li>
-            </ul>
-          </div>
-          <!-- /.design-text -->
-        </div>
-        <!-- /.design-block -->
-        <ul>
-          <li class="design-images" data-tabs-field="interior">
-              <img src="img/design/interior01.jpg" alt="BMW X6" class="design__img">
-              <img src="img/design/interior02.jpg" alt="BMW X6" class="design__img">
-              <img src="img/design/interior03.jpg" alt="BMW X6" class="design__img">
-              <img src="img/design/interior04.jpg" alt="BMW X6" class="design__img">
-          </li>
-          <li class="design-images hidden" data-tabs-field="body">
-              <img src="img/design/body01.jpg" alt="BMW X6" class="design__img">
-              <img src="img/design/body02.jpg" alt="BMW X6" class="design__img">
-              <img src="img/design/body03.jpg" alt="BMW X6" class="design__img">
-              <img src="img/design/body04.jpg" alt="BMW X6" class="design__img">
-          </li>
-        </ul>
-      </div>
-      <!-- /.design-wrapper -->
-    </div>
-  </section>
-  <!-- design (end) -->
+        <div id="countdown">
+            <div class="cards">
+                <div class="cardDay">
 
-  <!-- feature (start) -->
-  <section class="section feature" id="feature">
-    <div class="container">
-      <div class="feature-wrapper">
-        <div class="feature-block">
-          <h2 class="section__title feature__title">
-            Технические характеристики
-          </h2>
-          <ul class="feature-list">
-            <li class="feature__item">
-              <button type="button" class="feature__link feature__link_active">
-                <div class="feature-item-wrap">
-                  <span class="feature-item__title">
-                    Спецификация
-                  </span>
+                    <div class=" bottom">
+                        <span class="span-bottom" id="days"></span>
+                    </div>
+                    <p>Days</p>
                 </div>
-              </button>
-              <!-- /.feature__link -->
-              <ul class="feature-sub">
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Максимальная скорость
-                  </span>
-                  <span class="feature-sub__value">
-                    250 км/ч
-                  </span>
-                </li>
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Расход топлива
-                  </span>
-                  <span class="feature-sub__value">
-                    9,7 л
-                  </span>
-                </li>
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Вес
-                  </span>
-                  <span class="feature-sub__value">
-                    2,245 кг
-                  </span>
-                </li>
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Разгон до сотни
-                  </span>
-                  <span class="feature-sub__value">
-                    4.8 секунды
-                  </span>
-                </li>
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Привод
-                  </span>
-                  <span class="feature-sub__value">
-                    полный
-                  </span>
-                </li>
-              </ul>
-              <!-- /.feature-list-sub -->
-            </li>
-            <li class="feature__item">
-              <button type="button" class="feature__link">
-                <div class="feature-item-wrap">
-                  <span class="feature-item__title">
-                    Двигатель
-                  </span>
+                <div class="cardHours">
+                    <div class=" bottom">
+                        <span class="span-bottom" id="hours"></span>
+                    </div>
+                    <p>Hours</p>
                 </div>
-              </button>
-              <ul class="feature-sub hidden">
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Двигатель
-                  </span>
-                  <span class="feature-sub__value">
-                    бензиновый
-                  </span>
-                </li>
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Мощность
-                  </span>
-                  <span class="feature-sub__value">
-                    450 л. с.
-                  </span>
-                </li>
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Крутящий момент двигателя
-                  </span>
-                  <span class="feature-sub__value">
-                    650 Н·м	
-                  </span>
-                </li>
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Объём двигателя
-                  </span>
-                  <span class="feature-sub__value">
-                    4395 см3
-                  </span>
-                </li>
-              </ul>
-            </li>
-            <li class="feature__item">
-              <button type="button" class="feature__link">
-                <div class="feature-item-wrap">
-                  <span class="feature-item__title">
-                    Ходовые качества
-                  </span>
-                </div>
-              </button>
-              <ul class="feature-sub hidden">
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Дорожный просвет
-                  </span>
-                  <span class="feature-sub__value">
-                    212 мм
-                  </span>
-                </li>
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Антиблокировочная система
-                  </span>
-                  <span class="feature-sub__value">
-                    ABS
-                  </span>
-                </li>
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Система стабилизации
-                  </span>
-                  <span class="feature-sub__value">
-                    ESP
-                  </span>
-                </li>
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Система помощи при спуске
-                  </span>
-                  <span class="feature-sub__value">
-                    +
-                  </span>
-                </li>
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Система помощи при трогании в гору
-                  </span>
-                  <span class="feature-sub__value">
-                    +
-                  </span>
-                </li>
-              </ul>
-            </li>
-            <li class="feature__item">
-              <button type="button" class="feature__link">
-                <div class="feature-item-wrap">
-                  <span class="feature-item__title">
-                    Комфорт
-                  </span>
-                </div>
-              </button>
-              <ul class="feature-sub hidden">
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Климат-контроль
-                  </span>
-                  <span class="feature-sub__value">
-                    +
-                  </span>
-                </li>
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Бортовой компьютер
-                  </span>
-                  <span class="feature-sub__value">
-                    +
-                  </span>
-                </li>
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Датчик света и дождя
-                  </span>
-                  <span class="feature-sub__value">
-                    +
-                  </span>
-                </li>
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Мультимедиа с сенсорным экраном
-                  </span>
-                  <span class="feature-sub__value">
-                    Apple CarPlay и Android Auto
-                  </span>
-                </li>
-                <li class="feature-sub__item">
-                  <span class="feature-sub__name">
-                    Регулировка сиденья водителя по высоте
-                  </span>
-                  <span class="feature-sub__value">
-                    +
-                  </span>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <!-- /.feature-list -->
-        </div>
-        <!-- /.feature-block -->
-      </div>
-      <!-- /.feature-wrapper -->
-    </div>
-  </section>
-  <!-- feature (end) -->
+                <div class="cardMinutes">
 
-  <!-- contacts (start) -->
-  <section class="section contacts" id="contacts">
-    <div class="container">
-      <div class="contacts-wrapper">
-        <div class="contacts-form">
-          <h2 class="section__title">
-            Заявка на тест-драйв
-          </h2>
-          <p class="contacts__descr">
-            Оставьте свои контакты. Мы свяжемся с
-            вами и пригласим на тест-драйв в
-            удобное для вас время
-          </p>
-          <form class="form form-test-drive">
-            <input type="text" class="input" name="name" placeholder="Имя">
-            <input type="mail" class="input" name="mail" placeholder="Электронная почта">
-            <input type="text" class="input" name="phone" placeholder="Телефон">
-            <button type="submit" class="button form__button">
-              Отправить
-            </button>
-          </form>
-        </div>
-        <!-- /.contacts-form -->
-      </div>
-      <!-- /.contacts-wrapper -->
-    </div>
-  </section>
-  <!-- contacts (end) -->
+                    <div class=" bottom">
+                        <span class="span-bottom" id="minutes"></span>
+                    </div>
+                    <p>Minutes</p>
+                </div>
+                <div class="cardSeconds">
 
-  <!-- modal (start) -->
-  <div class="modal hidden">
-    <div class="overlay"></div>
-    <div class="modal-wrapper">
-      <h2 class="section__title modal__title">
-        Подробное описание
-        комплектаций
-      </h2>
-      <p class="modal__descr">
-        Оставьте адрес электронной почты, на
-        который хотите получить документ с
-        описанием комплектаций
-      </p>
-      <button type="button" class="modal__close" aria-label="закрыть модальное окно">
-      </button>
-      <form class="form modal__form">
-        <input type="text" name="name" class="input modal__input" placeholder="Имя">
-        <input type="mail" name="mail" class="input modal__input" placeholder="Электронная почта">
-        <div class="modal-buttons">
-          <button type="submit" class="button modal__button">
-            Отправить
-          </button>
+                    <div class=" bottom">
+                        <span class="span-bottom" id="seconds"></span>
+                    </div>
+                    <p>Seconds</p>
+                </div>
+            </div>
         </div>
-      </form>
-      <!-- /.form modal__form -->
+
+
+
+        <!-- Announcement, Shows up after the Timer has ended -->
+
+
+        <div class="mountain">
+            <!-- mountain image as backgroud image -->
+            <div class="socialMedia">
+                <a href="https://www.facebook.com/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#8385A9">
+            <path
+              d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" />
+          </svg>
+                </a>
+                <a href="https://www.pinterest.ru/Vityakotov23/pins/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#8385A9">
+            <path
+              d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z" />
+          </svg>
+                </a>
+                <a href="https://www.instagram.com/kotoovvvv/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#8385A9">
+            <path
+              d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+          </svg>
+                </a>
+
+            </div>
+            <div class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/Vitya23">Vitya Kotov</a>.
+            </div>
+        </div>
     </div>
-  </div>
-  <!-- modal (end) -->
+
+
+    <!-- JS -->
+
 </body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="footer">
+    <div class="img">
+        <div class="icons">
+            <div class="icon">
+                <a href="#"></a>
+            </div>
+            <div class="icon">
+                <a href="#"><img src="./images/icon-pinterest.svg" alt="pinterest"></a>
+            </div>
+            <div class="icon">
+                <a href="#"><img src="./images/icon-instagram.svg" alt="Instagram"></a>
+            </div>
+        </div>
+    </div>
+</div> -->
