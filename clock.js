@@ -3,7 +3,7 @@
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
-    let launch = 'Sep 1,2021 00:00:00',
+    let launch = 'Jan 1,2022 00:00:00',
         countDown = new Date(launch).getTime(),
         x = setInterval(function() {
 
